@@ -10,6 +10,8 @@ export const Main = styled.main`
 
 export const StyledDecoration = styled.figure`
     max-width: 100%;
+    height: 20%;
+    margin-bottom: 40px;
     display: grid;
     place-items: center;
     margin-top: 30px;
@@ -32,7 +34,7 @@ export const StyledFigure = styled.figure`
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     
     h1{
         color :  hsl(150, 100%, 66%) ;  

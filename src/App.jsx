@@ -14,7 +14,6 @@ function App() {
   const fetchApi = async () => {
     const res = await fetch(url);
     const json = await res.json()
-    console.log(json.slip.advice)
     setAdvence(json.slip.id)
     setTip(json.slip.advice)
   }

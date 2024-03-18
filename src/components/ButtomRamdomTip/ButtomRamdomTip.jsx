@@ -9,8 +9,6 @@ export const ButtomRamdomTip = ({ fetchApi }) => {
   const clickButtom = () => {
     const h1 = document.querySelector("h1"),
     p = document.querySelector("p")
-    console.log(h1)
-    console.log(p)
     
     h1.style.color=" hsl(217, 19%, 24%)"
     p.style.color=" hsl(217, 19%, 24%)"
