@@ -79,6 +79,8 @@ Error generating stack: `+o.message+`
         
     }
     @media(max-width: 730px){
+        min-height: 250px;
+        height: auto;
             h1 {
                 font-size: 1.2rem;
             }
